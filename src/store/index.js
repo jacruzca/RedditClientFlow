@@ -4,8 +4,9 @@ import thunk from 'redux-thunk';
 //import { persistStore, autoRehydrate } from 'redux-persist';
 //import { AsyncStorage } from 'react-native';
 import reducers from '../reducers';
+import Reactotron from 'reactotron-react-native';
 
-const store = createStore(
+const store = Reactotron.createStore(
     reducers,
     {},
     compose(
