@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": [
+    "flowtype",
+    "react"
+  ],
+  "globals": {
+    "ReactClass": false,
+    "ReactPropsCheckType": false,
+    "ReactPropsChainableTypeChecker": false,
+    "ReactPropTypes": false,
+    "SyntheticEvent": false,
+  }
+}
