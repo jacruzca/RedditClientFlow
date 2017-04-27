@@ -2,9 +2,10 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 
-import store from './store/index';
+import configureStore  from './store/index';
 import Router from './containers/Router';
 
+const store = configureStore();
 
 export default class App extends Component {
     render() {
